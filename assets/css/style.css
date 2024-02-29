@@ -1,6 +1,19 @@
-nav .active{
+nav .active {
     border-left: 2px solid rgb(234, 59, 190) !important;
     border-right: 2px solid rgb(234, 59, 190) !important;
     border-radius: 5px;
     color: rgb(234, 59, 190) !important;
+}
+.nav-link:hover{
+    border-bottom: 1px solid rgb(234, 59, 190);
+}
+.bgC {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.navbar-brand{
+    border: 1px solid white;
+}
+.navbar-brand:hover{
+    background-color: white;
+    color: black;
 }

@@ -56,6 +56,7 @@ if(isset($_POST['add_blog'])){
                 echo "Sorry, there was an error uploading your file.";
             }
         }
+        header("Location:index.php");
     }
 ?>
 <?php include "assets/footer.php" ?>

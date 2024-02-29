@@ -36,7 +36,7 @@ session_start();
         }
     }
 ?>
-<div class="container mt-5">
+<div class="container my-5">
     <?php echo $msg?$msg:" ";
     ?>
     <div class="row justify-content-center">
